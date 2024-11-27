@@ -177,7 +177,7 @@ def size_of(package):
     return struct.calcsize(package)
 
 def input():
-    global dead_time_old, Connected, returnValue, id, final_data
+    global Connected, returnValue, id, final_data
     start_time = time.time()
     now = (time.time() - start_time) * 1000
 
